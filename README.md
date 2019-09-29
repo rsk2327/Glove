@@ -32,5 +32,14 @@ For understanding the relationship between embeddings of words used in the finan
 #### Glove model trained using Financial Data
 ![Combined image examples](https://i.ibb.co/YyyBnfS/Glove-findata-300.png)
 
+Training with financial data 2 key observations. Firstly, the band structure which was very dominant in the pretrained model does not stand out in this model. Secondly, similarity of certain word-pairs used in the financial context become highlighted. Eg : The words mutual and funds are highlighted in this model whereas it wasnt in the pretrained models. 
+
 #### Glove model trained using Financial Data + Generic Data 
 <img src="https://i.ibb.co/Jk44qKY/Glove-combined-300.jpg" data-canonical-src="https://i.ibb.co/Jk44qKY/Glove-combined-300.jpg" width="550" height="550" />
+
+By training a model on both Generic and Financial datasets, we could see that both generic as well as domain specific patterns (word-pair similarities) were retained in the combined model. This strongly suggests that training Glove vectors with domain specific datasets can generate more relavant word embeddings.
+
+***
+
+### Future Work
+- Evaluate word vectors by using them as embeddings in domain-related NLP tasks. 
