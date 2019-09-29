@@ -24,6 +24,7 @@ For understanding the relationship between embeddings of words used in the finan
 #### Pretrained Glove model
 ![Combined image examples](https://i.ibb.co/TH21rLK/Glove-pretrained-300.png)
 
+A key observation was the characteristic band structure across the generic terms. This was expected as these words had no relationship ( low co-occurence) with the other, mostly financial terms. We also notice that the bottom right corner is more strongly highlighted as compared to the other regions. This is again expected since all purely financial terms are expected to have high co-occurence.
 
 #### Pretrained Word2Vec model
 ![Combined image examples](https://i.ibb.co/Sm9b5MX/Word2-Vec-pretrained.png)
@@ -32,7 +33,7 @@ For understanding the relationship between embeddings of words used in the finan
 #### Glove model trained using Financial Data
 ![Combined image examples](https://i.ibb.co/YyyBnfS/Glove-findata-300.png)
 
-Training with financial data 2 key observations. Firstly, the band structure which was very dominant in the pretrained model does not stand out in this model. Secondly, similarity of certain word-pairs used in the financial context become highlighted. Eg : The words mutual and funds are highlighted in this model whereas it wasnt in the pretrained models. 
+Training with financial data gave 2 key observations. Firstly, the band structure which was very dominant in the pretrained model does not stand out in this model. Secondly, similarity of certain word-pairs used in the financial context become highlighted. Eg : The words mutual and funds are highlighted in this model whereas it wasnt in the pretrained models. 
 
 #### Glove model trained using Financial Data + Generic Data 
 <img src="https://i.ibb.co/Jk44qKY/Glove-combined-300.jpg" data-canonical-src="https://i.ibb.co/Jk44qKY/Glove-combined-300.jpg" width="550" height="550" />
